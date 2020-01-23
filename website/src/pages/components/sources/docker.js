@@ -31,7 +31,7 @@ function Community() {
             </a>
           </div>
           <h1>Collect Docker Logs &amp; Send Them Anywhere</h1>
-          <p>written and maintained, with love, by the <Link to="/community/#team">Vector team</Link></p>
+          <p>Written and maintained, with love, by the <Link to="/community/#team">Vector team</Link></p>
         </div>
       </header>
       <main className="container container--narrow margin-vert--xl">
@@ -41,7 +41,9 @@ function Community() {
             <footer>— all developers</footer>
           </blockquote>
 
-          <p>Did you know that Docker splits long log messages? Or that collecting Docker logs, metrics, and events requires three separate APIs? Or that enriching this data with Docker context requires yet another API? Don't sweat it! We've got you covered. Below is a simple guide that uses a best-in-class tool (Vector) for collecting Docker logs and handling all of these edge cases. You'll be setup in minutes so you can get back to doing what you do best.</p>
+          <p>
+            This guide will cover to quickly and efficiently collect Docker logs and send them to one or more destinations.
+          </p>
         </section>
         <section>
           <AnchoredH2 id="guide">A simple step-by-step guide</AnchoredH2>
